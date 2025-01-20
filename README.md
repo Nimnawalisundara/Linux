@@ -16,8 +16,11 @@ Create yourself either a username and ssh key or an ID and password.
 Create a new resource group for the machine and a subnet to place the machine in 
 
 ![](img/Assignment1/1.PNG)
+
 ![](img/Assignment1/2.PNG)
+
 ![](img/Assignment1/3.PNG)
+
 ![](img/Assignment1/4.PNG)
 
 4)Try logging in after machine creation is successful Connect: Use an SSH client to connect to your virtual machine
@@ -28,6 +31,7 @@ download PyTTY
 
 Use the username and password or username and ssh key that you specified during installation.
 ![](img/Assignment1/5.PNG)
+
 ![](img/Assignment1/6.PNG)
 
 6)I created my GitHub account Nimnawalisundara is my user name and I created repository as Linux
