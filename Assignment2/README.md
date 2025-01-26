@@ -6,11 +6,11 @@ First I checked current directory using pwd command.
 I reverse back to main folder using cd .. command twise.
 After that I used cd /etc command and used ls command to list the contents of a directory.
 
-![](img/Assignment2/1.PNG)
+![](/img/Assignment2/1.PNG)
 
 I checked five level 2 directories and their content
 
-![](img/Assignment2/2.PNG)
+![](/img/Assignment2/2.PNG)
 
 
 #I have entered all list of content listing.md file I have entered all list of content. 
