@@ -15,15 +15,15 @@ I checked five level 2 directories and their content
 
 #I have entered all list of content listing.md file I have entered all list of content. 
 
-1)
+1).
 etc/ModemManager
     connection.d  
     fcc-unlock.d
-2)   
+2). 
 etc/apport
     crashdb.conf  
     report-ignore
-3)
+3).
 etc/apt
     apt.conf.d  
     auth.conf.d  
@@ -32,10 +32,10 @@ etc/apt
     sources.list  
     sources.list.d  
     trusted.gpg.d
-4)
+4).
 etc/PackageKit
     PackageKit.conf  
     Vendor.conf
-5)
+5).
 etc/apparmor
     parser.conf
