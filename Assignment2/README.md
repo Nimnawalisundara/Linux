@@ -43,7 +43,7 @@ etc/apt
 etc/PackageKit
     PackageKit.conf  
     Vendor.conf
-    
+
 5).
 
 etc/apparmor
