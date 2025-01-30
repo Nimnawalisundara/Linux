@@ -9,10 +9,10 @@
 
 2. Create the Lupu user using the useradd command. Try to create a user profile, home directory, and user group   similar to Tupu.
     - sudo useradd -m -d /home/lupu -s /bin/bash -G lupu lupu
-        -m: Create the user's home directory.
-        -d /home/lupu: Specify the home directory path.
-        -s /bin/bash: Set the login shell to /bin/bash.
-        -G lupu: Add the user to the lupu group.
+        - -m: Create the user's home directory.
+        - -d /home/lupu: Specify the home directory path.
+        - -s /bin/bash: Set the login shell to /bin/bash.
+        - -G lupu: Add the user to the lupu group.
 
     ![](/img/Assignment3/2.PNG)
 
