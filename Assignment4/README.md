@@ -27,7 +27,7 @@
 
 -Images
 
-  ![](/img/Assignment4/1.JPG)
+  ![](/img/Assignment4/1.PNG)
 
 
 #### Part 2: Linux Exercise
