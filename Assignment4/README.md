@@ -26,7 +26,8 @@
    |   04       | Rashmika    |
 
 -Images
-  ![](/img/Assignment4/1.JPEG)
+
+  ![](/img/Assignment4/1.JPG)
 
 
 #### Part 2: Linux Exercise
