@@ -1,16 +1,16 @@
-#Markdown and Linux Exercise
-##Author - Walisundara Walisundara -  BEIRP24A6
+# Markdown and Linux Exercise
+## Author - Walisundara Walisundara -  BEIRP24A6
 
-###Part 1: Markdown exercise
+### Part 1: Markdown exercise
 
-####Content
+#### Content
 
 - Introduction to Markdown
 - Markdown syntax basics
 - Introduction to Linux
 - Basic command
 
-####Markdown examples
+#### Markdown examples
 
 - ***Bold and italic text***
 
@@ -29,7 +29,7 @@
   ![](/img/Assignment4/1.JPEG)
 
 
-####Part 2: Linux Exercise
+#### Part 2: Linux Exercise
 
 1. Open a Linux command prompt (terminal).
 
@@ -61,7 +61,7 @@
 ![](/img/Assignment4/6.PNG)
 
 
-####Part 3: Git version control 
+#### Part 3: Git version control 
 
 1. Initialize a new Git repository in the directory with markdown_linux_assingment command:
     - git init
@@ -78,7 +78,7 @@
 
 ![](/img/Assignment4/9.PNG)
 
-####Task submission
+#### Task submission
 
 1. Return README.md file as an electronic version in the course learning environment.
 2. Return also the link to your own Git repository, pointing to file you created (.md).
