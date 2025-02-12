@@ -177,7 +177,7 @@
 
     ![](/img/Assignment6/16.PNG)
 
-
+    ***Why would you want to hold a package?***
     - Prevent breaking changes – If a newer version has bugs or compatibility issues.
     - Avoid dependency conflicts – When an update might break other installed software.
     - Stick to a specific version – If you need a stable version for your workflow.
