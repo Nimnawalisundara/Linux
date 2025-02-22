@@ -263,5 +263,35 @@
     ![](/img/Assignment7/40.PNG)
 
 
+### Part 5: Snaps for Self-Contained Applications (30 minutes) ###
+
+- Snaps provides a way to package applications with their dependencies for consistent execution on Linux distributions.
+
+- Research: Using sources, explore Snapcraft and the concept of Snaps.
+
+- Experiment: Choose a simple app and compress it into Snap using Snapcraft. For more information, you can find "Snapcraft" - from the source.
+
+1. Install snapcraft
+    - sudo apt update 
+    - sudo snap install snapcraft
+
+    ![](/img/Assignment7/43.PNG)
+
+2. Create the python file
+
+    ![](/img/Assignment7/44.PNG)
+    
+3. Create the Snapcraft Configuration
+
+    ![](/img/Assignment7/44.PNG)
+
+5. Create the snapcraft
+    - snapcraft
+
+![](/img/Assignment7/45.PNG)
+
+![](/img/Assignment7/46.PNG)
+
+![](/img/Assignment7/47.PNG)
 
 
