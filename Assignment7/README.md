@@ -146,7 +146,7 @@
 
     ![](/img/Assignment7/21.PNG)
 
-2.Mount the folder inside the Multipass instance.
+2. Mount the folder inside the Multipass instance.
 
     ![](/img/Assignment7/22.PNG)
 
