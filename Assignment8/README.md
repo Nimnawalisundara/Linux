@@ -149,17 +149,20 @@ Default rules added by UFW on /etc/ufw/before.rules file
         - nc -zv [server-ip] 443
 
 ***Rule Order***
+
     - Rules are processed in order from top to bottom
     - More specific rules are placed before general rules
     - Default policies act as a catch-all for undefined traffic
 
 ***Security Considerations***
+
     - All unnecessary ports remain closed by default
     - Rate limiting on SSH prevents automated attacks
     - SYN flood protection helps maintain service availability
     - Logging enables security monitoring and incident response
 
 ***Maintenance Requirements***
+
     - Regular log review required
     - Update rules as service requirements change
     - Monitor for unusual patterns in blocked traffic
