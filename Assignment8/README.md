@@ -21,32 +21,32 @@
 
 ### Service Rules ###
 
-### SSH Server ###
+1. SSH Server
 
     - sudo ufw allow 22/tcp
         - To allow traffic on port 22 for SSH.
-    sudo ufw limit ssh comment 'Rate limit SSH connections'.
+    - sudo ufw limit ssh comment 'Rate limit SSH connections'.
         - To rate limit SSH connections is a great way to protect your server from brute force attacks.
 
         ![](/img/Assignment8/3.PNG)
 
-### Web Server (HTTP/HTTPS) rules ###
+2. Web Server (HTTP/HTTPS) rules
 
     - sudo ufw allow 80/tcp
         - Allow incoming traffic on port 80, which is typically used for HTTP.
     - sudo ufw allow 443/tcp
         - Allow incoming HTTPS traffic on port 443.
 
-        ![](img/Assignment8/4.PNG)
+    ![](img/Assignment8/4.PNG)
 
-### Logging Configuration ###
+3. Logging Configuration
 
     - sudo ufw logging on
         - This will help to monitor all connections and identify any potential security issues.
     - sudo ufw logging high
         - Provide more detailed logs for network traffic, which can be very useful for troubleshooting and monitoring purposes.
 
-        ![](/img/Assignment8/5.PNG)
+    ![](/img/Assignment8/5.PNG)
 
 #### Protection Against Common Attacks ####
 
