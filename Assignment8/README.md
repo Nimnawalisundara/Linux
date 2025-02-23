@@ -122,7 +122,7 @@ Default rules added by UFW on /etc/ufw/before.rules file
 
         ![](/img/Assignment8/9.PNG)
 
-# ok icmp code for FORWARD #
+2. ok icmp code for FORWARD
     1. -A ufw-before-forward -p icmp --icmp-type destination-unreachable -j ACCEPT
     2. -A ufw-before-forward -p icmp --icmp-type time-exceeded -j ACCEPT
     3. -A ufw-before-forward -p icmp --icmp-type parameter-problem -j ACCEPT
