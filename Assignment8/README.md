@@ -27,7 +27,7 @@
     sudo ufw limit ssh comment 'Rate limit SSH connections'.
         - To rate limit SSH connections is a great way to protect your server from brute force attacks.
 
-    ![](img/Assignment8/3.PNG)
+    ![](/img/Assignment8/3.PNG)
 
 #### Web Server (HTTP/HTTPS) rules ####
 
