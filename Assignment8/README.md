@@ -100,7 +100,7 @@ Default rules added by UFW on /etc/ufw/before.rules file
 
     ![](/img/Assignment8/8.PNG)
 
-- Don't forget to add them to the before6.rules file as well:
+3. Don't forget to add them to the before6.rules file as well:
 
     - -A ufw6-before-input -p tcp -m tcp ! --tcp-flags FIN,SYN,RST,ACK SYN -m conntrack --ctstate NEW -j ufw6-logging-deny
     - -A ufw6-before-input -p tcp -m tcp ! --tcp-flags FIN,SYN,RST,ACK SYN -m conntrack --ctstate NEW -j DROP
@@ -114,8 +114,7 @@ Default rules added by UFW on /etc/ufw/before.rules file
 
 - By commenting the lines below to block ping requests (icmp protocol) by ufw on file /etc/ufw/before.rules:
 
-1. 
-### ok icmp codes for INPUT ###
+1. ok icmp codes for INPUT
     1. -A ufw-before-input -p icmp --icmp-type destination-unreachable -j ACCEPT
     2. -A ufw-before-input -p icmp --icmp-type time-exceeded -j ACCEPT
     3. -A ufw-before-input -p icmp --icmp-type parameter-problem -j ACCEPT
