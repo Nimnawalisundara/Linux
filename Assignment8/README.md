@@ -27,7 +27,7 @@
     sudo ufw limit ssh comment 'Rate limit SSH connections'
         - To rate limit SSH connections is a great way to protect your server from brute force attacks
 
-    ![](/img/Assignment8/3.PNG)
+![](/img/Assignment8/3.PNG)
 
 #### Web Server (HTTP/HTTPS) rules ####
 
@@ -36,7 +36,7 @@
     - sudo ufw allow 443/tcp
         - Allow incoming HTTPS traffic on port 443
 
-    ![](/img/Assignment8/4.PNG)
+![](/img/Assignment8/4.PNG)
 
 #### Logging Configuration ####
     - sudo ufw logging on
@@ -44,7 +44,7 @@
     - sudo ufw logging high
         - Provide more detailed logs for network traffic, which can be very useful for troubleshooting and monitoring purposes.
 
-    ![](/img/Assignment8/5.PNG)
+![](/img/Assignment8/5.PNG)
 
 #### Protection Against Common Attacks ####
 
@@ -114,18 +114,18 @@ Default rules added by UFW on /etc/ufw/before.rules file
 
 1. 
 #### ok icmp codes for INPUT ####
--A ufw-before-input -p icmp --icmp-type destination-unreachable -j ACCEPT
--A ufw-before-input -p icmp --icmp-type time-exceeded -j ACCEPT
--A ufw-before-input -p icmp --icmp-type parameter-problem -j ACCEPT
--A ufw-before-input -p icmp --icmp-type echo-request -j ACCEPT
+    - -A ufw-before-input -p icmp --icmp-type destination-unreachable -j ACCEPT
+    - -A ufw-before-input -p icmp --icmp-type time-exceeded -j ACCEPT
+    - -A ufw-before-input -p icmp --icmp-type parameter-problem -j ACCEPT
+    - -A ufw-before-input -p icmp --icmp-type echo-request -j ACCEPT
 
     ![](/img/Assignment8/9.PNG)
 
 # ok icmp code for FORWARD
--A ufw-before-forward -p icmp --icmp-type destination-unreachable -j ACCEPT
--A ufw-before-forward -p icmp --icmp-type time-exceeded -j ACCEPT
--A ufw-before-forward -p icmp --icmp-type parameter-problem -j ACCEPT
--A ufw-before-forward -p icmp --icmp-type echo-request -j ACCEPT
+    - -A ufw-before-forward -p icmp --icmp-type destination-unreachable -j ACCEPT
+    - -A ufw-before-forward -p icmp --icmp-type time-exceeded -j ACCEPT
+    - -A ufw-before-forward -p icmp --icmp-type parameter-problem -j ACCEPT
+    - -A ufw-before-forward -p icmp --icmp-type echo-request -j ACCEPT
 
     ![](/img/Assignment8/10.PNG)
 
