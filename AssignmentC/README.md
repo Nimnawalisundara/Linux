@@ -54,7 +54,7 @@
     - sudo apt update
     - sudo apt install python3 python3-pip
 
-5.Install bpytop and Run It
+5. Install bpytop and Run It.
     - pip3 install bpytop
 
     ![](/img/AssignmentC/10.PNG)
